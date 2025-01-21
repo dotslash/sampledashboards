@@ -916,7 +916,7 @@
       "widget" : {
         "name" : "7b12c371",
         "queries" : [ {
-          "name" : "globalEndDateselect_workspace",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b09aa1aad1c3e27f931_param_end_date",
           "query" : {
             "datasetName" : "0768f2db",
             "parameters" : [ {
@@ -926,7 +926,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateselect_tag_key",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b238b8f9d42cafcbc5a_param_end_date",
           "query" : {
             "datasetName" : "84c53ff6",
             "parameters" : [ {
@@ -936,7 +936,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateselect_rank_key",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b39bbb8a3ff1c19fe44_param_end_date",
           "query" : {
             "datasetName" : "2f4b4aa4",
             "parameters" : [ {
@@ -946,7 +946,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_total",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b52b5386989f6904e6c_param_end_date",
           "query" : {
             "datasetName" : "345ede1c",
             "parameters" : [ {
@@ -956,7 +956,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_overview",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b7491baf822dc353877_param_end_date",
           "query" : {
             "datasetName" : "0338d419",
             "parameters" : [ {
@@ -966,7 +966,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_overview_overtime",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b9c91a05ebbbd937a4c_param_end_date",
           "query" : {
             "datasetName" : "c24a1b77",
             "parameters" : [ {
@@ -976,7 +976,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_analyze_tags_match",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791be7a6522bdf5e74df90_param_end_date",
           "query" : {
             "datasetName" : "f39ddddd",
             "parameters" : [ {
@@ -986,7 +986,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_analyze_tags",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c0d98163c8acf3b617f_param_end_date",
           "query" : {
             "datasetName" : "d2ae38ef",
             "parameters" : [ {
@@ -996,7 +996,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_analyze_tags_overtime",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c28bada59e9670e4584_param_end_date",
           "query" : {
             "datasetName" : "5ab331da",
             "parameters" : [ {
@@ -1006,7 +1006,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_analyze_top_spending",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c7796fba273dc32cb5a_param_end_date",
           "query" : {
             "datasetName" : "9bc2dd3f",
             "parameters" : [ {
@@ -1016,7 +1016,7 @@
             "disaggregated" : false
           }
         }, {
-          "name" : "globalEndDateusage_analyze_top_spending_overtime",
+          "name" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c9aa115c73b4c4b5e37_param_end_date",
           "query" : {
             "datasetName" : "a57509b9",
             "parameters" : [ {
@@ -1027,49 +1027,49 @@
           }
         } ],
         "spec" : {
+          "version" : 2,
+          "widgetType" : "filter-date-picker",
           "encodings" : {
             "fields" : [ {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateselect_workspace"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b09aa1aad1c3e27f931_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateselect_tag_key"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b238b8f9d42cafcbc5a_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateselect_rank_key"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b39bbb8a3ff1c19fe44_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_total"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b52b5386989f6904e6c_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_overview"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b7491baf822dc353877_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_overview_overtime"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791b9c91a05ebbbd937a4c_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_analyze_tags_match"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791be7a6522bdf5e74df90_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_analyze_tags"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c0d98163c8acf3b617f_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_analyze_tags_overtime"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c28bada59e9670e4584_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_analyze_top_spending"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c7796fba273dc32cb5a_param_end_date"
             }, {
               "parameterName" : "param_end_date",
-              "queryName" : "globalEndDateusage_analyze_top_spending_overtime"
+              "queryName" : "parameter_dashboards/01efd8450e791718be36c29cd97f2264/datasets/01efd8450e791c9aa115c73b4c4b5e37_param_end_date"
             } ]
           },
           "frame" : {
             "showDescription" : false,
             "showTitle" : true,
-            "title" : "End date"
-          },
-          "version" : 2,
-          "widgetType" : "filter-date-picker"
+            "title" : "End dates"
+          }
         }
       },
       "position" : {
